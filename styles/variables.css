@@ -29,7 +29,8 @@
     --lh-tight: 110%;
     --lh-loose: 150%;
     --tr-fast: 0.3s;
-    --shadow-l: 0 0 10px rgba(0, 0, 0, 0.5);
+    --shadow-l: 0 0 var(--l) rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 0 var(--xl) rgba(0, 0, 0, 0.5);
     --n-shadow-l:
         20px 20px 60px rgba(0, 0, 0, 0.1),
         -20px -20px 60px rgba(255, 255, 255, 0.1); /* https://neumorphism.io/#e0e0e */

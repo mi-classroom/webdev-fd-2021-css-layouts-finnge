@@ -28,9 +28,14 @@
 }
 
 .card figcaption {
+    position: relative;
     padding: var(--l) var(--m) var(--xl) var(--m);
 }
 
 .card h2 {
+    position: absolute;
+    bottom: 100%;
+    color: var(--lightest);
     font-size: clamp(var(--xl), 5vw, var(--xxxl));
+    text-shadow: var(--shadow-xl);
 }
