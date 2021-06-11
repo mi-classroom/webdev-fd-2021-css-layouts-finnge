@@ -1,57 +1,57 @@
-*{
-  /* TODO: Zeigen */
-  box-sizing: border-box;
+* {
+    /* TODO: Zeigen */
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body{
-  font-family: var(--ff-normal);
-  font-weight: var(--fw-normal);
-  font-size: var(--m);
-  line-height: var(--lh-normal);
-  color: var(--color-text);
-  hyphens: auto;
-  background-color: var(--lightest);
+body {
+    background-color: var(--lightest);
+    color: var(--color-text);
+    font-family: var(--ff-normal);
+    font-size: var(--m);
+    font-weight: var(--fw-normal);
+    hyphens: auto;
+    line-height: var(--lh-normal);
 }
 
-
-h1, h2, h3, h4, h5, h6{
-  font-weight: bold;
-  color: var(--color-headline);
-  hyphens: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-headline);
+    font-weight: bold;
+    hyphens: none;
 }
 
-h1{
-  font-size: var(--xxxl);
-  padding-top: var(--xxxl);
-  padding-bottom: var(--xxxl);
-  line-height: var(--lh-tight);
-  color: var(--dark);
-  padding-left: var(--m);
+h1 {
+    padding-top: var(--xxxl);
+    padding-bottom: var(--xxxl);
+    padding-left: var(--m);
+    color: var(--dark);
+    font-size: var(--xxxl);
+    line-height: var(--lh-tight);
 }
 
-h2{
-  padding-top: var(--m);
-  font-size: var(--xxl);
-  color: var(--color-accent);
-  line-height: var(--lh-tight);
-  margin-bottom: var(--xxl)
+h2 {
+    padding-top: var(--m);
+    margin-bottom: var(--xxl);
+    color: var(--color-accent);
+    font-size: var(--xxl);
+    line-height: var(--lh-tight);
 }
 
-h3{
-  padding-top: var(--xl);
-  font-size: var(--xl);
-  font-weight: normal;
-  margin-bottom: var(--xl);
+h3 {
+    padding-top: var(--xl);
+    margin-bottom: var(--xl);
+    font-size: var(--xl);
+    font-weight: normal;
 }
 
-img{
-  width: 100%;
+img {
+    width: 100%;
 }
-
-
-
-
