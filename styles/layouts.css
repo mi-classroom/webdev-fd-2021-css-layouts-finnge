@@ -21,7 +21,7 @@
     position: sticky;
     top: 0;
     overflow: hidden;
-    width: 50%;
+    width: clamp(40ch, 50%, 800px);
     background-color: var(--lightest);
     border-radius: var(--radius-m);
     box-shadow: var(--n-shadow-l);
@@ -29,4 +29,8 @@
 
 .card figcaption {
     padding: var(--l) var(--m) var(--xl) var(--m);
+}
+
+.card h2 {
+    font-size: clamp(var(--xl), 5vw, var(--xxxl));
 }
